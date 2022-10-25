@@ -1,0 +1,748 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 62.5%;
+}
+
+li {
+  list-style-type: none;
+}
+
+.container {
+  /* border: 2px solid red; */
+  max-width: 1400px;
+  margin: auto;
+  width: 90%;
+}
+
+.navbar-container {
+  padding-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.items {
+  font-size: 1.5rem;
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+button {
+  /* border: 2px solid red; */
+  font-size: 1rem;
+  padding: 0.7rem 1.7rem;
+  /* Created with https://www.css-gradient.com */
+  background: #24829e;
+  background: -webkit-linear-gradient(top left, #24829e, #1017d3);
+  background: -moz-linear-gradient(top left, #24829e, #1017d3);
+  background: linear-gradient(to bottom right, #24829e, #1017d3);
+  color: white;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+}
+
+.one {
+  /* border: 2px solid red; */
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-between;
+}
+.one .left,
+.two .right,
+.three .left {
+  /* border: 2px solid red; */
+  flex-basis: 55%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin: auto 0;
+}
+
+.one .left .heading,
+.two .right .heading,
+.three .left .heading {
+  font-size: 3.5rem;
+}
+
+.one .left .text,
+.two .right .text,
+.three .left .text {
+  font-size: 1rem;
+  /* border: 2px solid red; */
+}
+.one .left .text {
+  max-width: 60%;
+}
+
+.two .right .text {
+  max-width: 70%;
+}
+
+.three .left .text {
+  max-width: 80%;
+}
+
+.one .right,
+.two .left,
+.three .right {
+  /* border: 2px solid red; */
+  flex-basis: 40%;
+  margin: auto 0;
+}
+.one .right img,
+.two .left img,
+.three .right img {
+  display: block;
+  width: 100%;
+  /* border: 2px solid red; */
+}
+
+.two {
+  /* border: 2px solid red; */
+  margin-top: 4rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.three {
+  /* border: 2px solid red; */
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.two .right {
+  padding-left: 4rem;
+}
+
+.four {
+  /* border: 2px solid red; */
+  display: flex;
+  gap: 4rem;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.four .left {
+  /* border: 2px solid red; */
+  flex-basis: 50%;
+  font-size: 2rem;
+  margin: auto 0;
+}
+.four .right {
+  /* border: 2px solid red; */
+  flex-basis: 50%;
+  font-size: 1rem;
+  padding-left: 3rem;
+  margin: auto 0;
+}
+
+.five {
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.five .blocks {
+  flex-basis: 32%;
+  margin-top: 3rem;
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.five .blocks img {
+  height: 50px;
+  width: 50px;
+}
+.five .blocks .heading {
+  font-size: 2rem;
+}
+
+.five .blocks .text {
+  font-size: 1.2rem;
+}
+
+.five .blocks {
+  /* border: 2px solid red; */
+  /* box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px; */
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+  padding: 1rem;
+}
+
+.six {
+  /* border: 2px solid red; */
+  margin-top: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+  /* Created with https://www.css-gradient.com */
+  /* Created with https://www.css-gradient.com */
+  background: #0aa9f2;
+  background: -webkit-linear-gradient(top left, #0aa9f2, #275f87);
+  background: -moz-linear-gradient(top left, #0aa9f2, #275f87);
+  background: linear-gradient(to bottom right, #0aa9f2, #275f87);
+}
+
+.upper-container {
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.six-container {
+  /* border: 2px solid red; */
+  flex-basis: 32%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem;
+  background: white;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.six-container .start h3 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+.six-container .start p {
+  font-size: 1.5rem;
+}
+
+.six-container .mid {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.six-container .mid .six-sub-items {
+  display: flex;
+  gap: 0.5rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.six-container .last {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+}
+
+.six-container .last h2 {
+  font-size: 2.5rem;
+}
+.six-container .last p {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.six-container img {
+  height: 25px;
+  width: 30px;
+}
+
+.six .halo {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: white;
+}
+
+.hidden {
+  display: none;
+}
+
+.seven{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.seven .top{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+}
+.seven .top .heading{
+    margin-top: 2rem;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.seven .top .text{
+    max-width: 70%;
+    margin: auto;
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+.seven .bottom{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.seven .bottom .blocks{
+    /* border: 2px solid red; */
+    flex-basis: 48%;   
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+    justify-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+    padding: 1rem;
+}
+.seven .bottom .blocks p{
+    font-size: 1.3rem;
+}
+
+.seven .bottom .blocks .sub{
+    margin-top: 2rem;
+    /* border: 2px solid red; */
+    justify-self: flex-end;
+    display: flex;
+    gap: 1rem;
+
+}
+
+.seven .bottom .blocks .sub .okay{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    font-size: 1rem;
+}
+
+.eight{
+    /* border: 2px solid red; */
+    background-image: linear-gradient( 135deg, #92FFC0 10%, #002661 100%);
+    padding: 2rem;
+}
+
+.hey{
+    display: flex;
+    justify-content: space-between;
+}
+
+.hey .left{
+    /* border: 2px solid red; */
+    flex-basis: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.hey .left h2{
+    font-size: 3rem;
+}
+.hey .left p{
+    font-size: 1.2rem;
+    max-width: 60%;
+}
+
+.hey .right{
+    /* border: 2px solid red; */
+    flex-basis:30%;
+    align-self: center;
+}
+
+.hey .right button{
+    padding: 1.2rem 2.2rem;
+    background: lightgreen;
+    color: blue;
+    font-weight: bolder;
+}
+
+.nine{
+    /* border: 2px solid red; */
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+.sub-1{
+    /* border: 2px solid red; */
+    flex-basis: 16%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.sub-1 .logo-1{
+    /* border: 2px solid red; */
+    width: 120px;
+    margin-bottom: 1rem;
+}
+.sub-1 .logo-1 img{
+    display: block;
+    width: 100%;
+}
+
+.sub-1 h2{
+    font-size: 1.8rem;
+}
+
+.sub-1 p{
+    font-size: 1.2rem;
+}
+
+.sub-1 .subItems{
+    display:flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    font-size: 1.2rem;
+}
+
+.sub-1 .sub-hello{
+    /* border: 2px solid red; */
+    display: flex;
+    gap: 0.5rem;
+}
+
+.sub-1 .sub-hello img{
+    height: 35px;
+    width: 35px;
+}
+
+@media screen and (max-width: 1250px) {
+  .four .right {
+    padding-left: 0;
+  }
+  .six-container .start h3 {
+    font-size: 2rem;
+  }
+  .six-container .start p {
+    font-size: 1.2rem;
+  }
+  .six-container .mid .six-sub-items {
+    font-size: 1rem;
+  }
+  .six-container .last h2 {
+    font-size: 2rem;
+  }
+  .six-container .last p {
+    font-size: 1.2rem;
+  }
+  
+
+}
+
+@media screen and (max-width: 1200px) {
+  .items .item {
+    display: none;
+  }
+  .one .left .text,
+  .two .right .text,
+  .three .left .text {
+    font-size: 1rem;
+    max-width: 80%;
+  }
+  .four .right br {
+    display: none;
+  }
+  .hey .left p{
+    max-width: 75%;
+}
+}
+
+@media screen and (max-width: 1130px) {
+  .one .left .heading,
+  .two .right .heading,
+  .three .left .heading {
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .five .blocks .heading {
+    font-size: 1.5rem;
+  }
+  .six-container .start h3 {
+    font-size: 1.7rem;
+  }
+  .six-container .start p {
+    font-size: 1.1rem;
+  }
+  .six-container .mid .six-sub-items {
+    font-size: 0.9rem;
+  }
+  .six-container .last h2 {
+    font-size: 1.8rem;
+  }
+  .six-container .last p {
+    font-size: 0.8rem;
+  }
+  .hey .left p{
+    max-width: 90%;
+}
+}
+
+@media screen and (max-width: 1000px) {
+  .four .left {
+    font-size: 1.8rem;
+  }
+  .five .blocks {
+    flex-basis: 48%;
+  }
+  .seven .top .text{
+    max-width:100%;
+}
+}
+@media screen and (max-width: 980px) {
+  .one .left .heading,
+  .two .right .heading,
+  .three .left .heading {
+    font-size: 2rem;
+  }
+  .one .left .text,
+  .two .right .text,
+  .three .left .text {
+    font-size: 0.9rem;
+  }
+  .four .left {
+    font-size: 1.5rem;
+  }
+  .upper-container{
+    flex-wrap: wrap;
+    /* border: 2px solid red; */
+  }
+  .six-container{
+    flex-basis: 48%;
+    margin-bottom: 2rem;
+    /* border: 2px solid red; */
+  }
+  .special{
+    margin: auto;
+  }
+  .seven .top .heading{
+    font-size:1.8rem;
+}
+.seven .top .text{
+    font-size: 1.2rem;
+}
+.hey .left h2{
+    /* border: 2px solid red; */
+    font-size: 2.3rem;
+}
+}
+
+@media screen and (max-width:900px){
+    .hidden-1{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+  .one .left .heading,
+  .two .right .heading,
+  .three .left .heading {
+    font-size: 1.7rem;
+  }
+  .logo {
+    /* border: 2px solid red; */
+    width: 120px;
+  }
+  .logo img {
+    display: block;
+    width: 100%;
+  }
+  .four .left {
+    font-size: 1.2rem;
+  }
+  .seven .top .text{
+    max-width:100%;
+}
+
+.sub-1{
+    /* border: 2px solid red; */
+}
+.sub-1{
+    flex-basis: 23%;
+}
+}
+
+@media screen and (max-width: 634px) {
+  .one,
+  .three {
+    flex-direction: column-reverse;
+    gap: 2rem;
+  }
+  .two {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .two .right {
+    padding-left: 0rem;
+  }
+  .one .left .text,
+  .two .right .text,
+  .three .left .text {
+    /* border: 2px solid red; */
+    max-width: 100%;
+  }
+  br {
+    display: none;
+  }
+  .one .left .text,
+  .two .right .text,
+  .three .left .text {
+    font-size: 1rem;
+  }
+  .four {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .four br {
+    display: none;
+  }
+  .four .left {
+    font-size: 1.2rem;
+    /* border: 2px solid red; */
+    text-align: center;
+  }
+
+  .five .blocks .heading {
+    font-size: 1.3rem;
+  }
+  .five .blocks .text {
+    font-size: 1rem;
+  }
+  .upper-container{
+    flex-direction: column;
+  }
+  .special{
+    margin: 0;
+  }
+  .six-container{
+    width: 65%;
+    margin:0 auto 2rem auto;
+  }
+  .seven .bottom .blocks{
+    flex-basis: 49%;
+  }
+  .seven .bottom{
+    flex-direction: column;
+  }
+  .eight .hey{
+    flex-direction: column;
+    gap: 2rem;
+    text-align: center;
+  }
+  .eight .hey p{
+    max-width: 100%;
+    /* border: 2px solid red; */
+    margin: auto;
+  }
+  .sub-1{
+    flex-basis: 31%;
+    margin-bottom: 2rem;
+  }
+  .nine{
+    flex-wrap: wrap;
+  }
+  .change{
+    flex-basis: 100%;
+    /* border: 2px solid red; */
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width:520px){
+    .six-container{
+        width: 70%;
+        margin:0 auto 2rem auto;
+      }
+      .eight .hey p{
+        max-width: 100%;
+        /* border: 2px solid red; */
+        margin: auto;
+      }
+}
+
+@media screen and (max-width: 458px) {
+  .hidden {
+    display: block;
+    font-size: 2rem;
+  }
+  .button {
+    display: none;
+  }
+  .five .blocks {
+    /* border: 2px solid red; */
+    justify-content: space-between;
+    gap: 0.5rem;
+  }
+  .six-container{
+    min-width: 80%;
+    margin:0 auto 2rem auto;
+  }
+  .eight .hey h2{
+    font-size: 1.5rem;
+  }
+  .eight .hey p{
+    font-size: 1rem;
+  }
+  .nine h2{
+    font-size: 1.5rem;
+  }
+  .nine .subItems{
+    font-size: 1rem;
+  }
+  .hidden-2{
+    display: none;
+  }
+  .nine{
+    /* border: 2px solid red; */
+    justify-content: space-between;
+  }
+  .sub-1{
+    flex-basis: 35%;
+  }
+  .change{
+    flex-basis: 100%;
+    align-items: center;
+  }
+
+}
+
+@media screen and (max-width:400px){
+    .six-container{
+        width: 85%;
+        margin:0 auto 2rem auto;
+      }
+}
+
+@media screen and (max-width: 368px) {
+  .five {
+    flex-direction: column;
+  }
+  .six-container{
+    width: 95%;
+    margin:0 auto 2rem auto;
+  }
+  .six .halo{
+    font-size: 2rem;
+  }
+  .seven .bottom .blocks .sub .okay{
+    font-size: 0.8rem;
+}
+}
