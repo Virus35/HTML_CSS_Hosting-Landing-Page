@@ -26,7 +26,7 @@ This is the assignment given in the **"JavaScript Full Stack Web Developer Bootc
   👉 Targeting Parent and Child elements <br>
   👉 Page distribution horizontally and vertically  <br>
 
-### Time Taken to Complete this Project:- 6 Hours
+### Time Taken to Complete this Project:- 8 Hours
 
 ### 📬 Connect With Me
 
